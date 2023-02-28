@@ -1,7 +1,9 @@
 import React from 'react'
+import logoHome from '../../assets/images/logoPag.jpg'
+import './logo.css'
 
 export const Logo = () => {
   return (
-    <img src="" alt="" />
+    <img src={logoHome} alt="Loogo Home" />
   )
 }
